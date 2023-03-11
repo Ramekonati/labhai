@@ -1,0 +1,49 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-size: 20px;
+    color:rgb(255, 255, 255);
+}
+
+.about-section{
+    background: url(bg3.jpg) no-repeat left;
+    background-size: 75%;
+    background-color:#ffffff;
+    overflow: hidden;
+    padding: 100px 0;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.inner-container{
+    width: 55%;
+    float: right;
+    background-color:#0077b6;
+    color: #ffffff;
+    padding: 50px;
+    opacity: 0.8;
+    margin-right: 10px;
+}
+
+.inner-container:hover {
+    width: 55%;
+    float: right;
+    background-color:#0077b6;
+    color: #ffffff;
+    padding: 60px;
+    opacity: 1;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
+.skills{
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+}
